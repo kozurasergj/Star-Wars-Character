@@ -1,42 +1,42 @@
 # Star Wars Character Explorer 🚀🚀🚀
 
-Проект представляет собой исследователь персонажей Star Wars, позволяющий искать и отображать информацию о персонажах с помощью API [SWAPI](https://swapi.dev/).
+This project is a Star Wars character explorer that allows searching and displaying information about characters using the [SWAPI](https://swapi.dev/) API.
 
-## Инструкции по установке
+## Installation Instructions
 
-Прежде чем начать, убедитесь, что у вас установлен [Node.js](https://nodejs.org/) и [npm](https://www.npmjs.com/).
+Before you begin, make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/).
 
-1. **Клонируйте репозиторий:**
+1. **Clone the repository:**
 
     ```bash
     https://github.com/kozurasergj/Star-Wars-Character.git
     ```
 
-2. **Перейдите в каталог проекта:**
+2. **Navigate to the project directory:**
 
     ```bash
     cd Star-Wars-Character
     ```
 
-3. **Установите зависимости:**
+3. **Install dependencies:**
 
     ```bash
     npm install
     ```
 
-## Запуск проекта
+## Running the Project
 
-1. **Запустите проект:**
+1. **Run the project:**
 
     ```bash
     npm run start
     ```
 
-    Эта команда запустит приложение. Откройте [http://localhost:3000](http://localhost:3000) в вашем браузере, чтобы увидеть приложение.
+This command will start the application. Open http://localhost:3000 in your browser to view the application.
 
-## Функциональности
 
-- **Список персонажей:** На странице обзора отображается информация о каждом персонаже, включая имя, год рождения, рост и дату создания в формате DD/MM/YYYY HH:MM.
-- **Пагинация:** Персонажи на странице обзора разбиты на страницы для удобства взаимодействия пользователя с пагинацией.
-- **Поиск:** Интерфейс позволяет пользователям осуществлять поиск персонажей по имени на странице обзора.
-- **Подробный обзор персонажа:** Пользователь может взаимодействовать с каждым персонажем на странице обзора, после чего открывается подробная версия профиля персонажа. Детальный обзор включает все атрибуты, представленные на странице обзора, а также дополнительные атрибуты, такие как средняя продолжительность жизни, классификация, язык, название звездных кораблей, модель звездных кораблей и пассажиры.
+## Features
+- **Character List:**  The overview page displays information about each character, including name, birth year, height, and creation date in the format DD/MM/YYYY HH:MM.
+- **Pagination:**  Characters on the overview page are paginated for user convenience.
+- **Search::**  The interface allows users to search for characters by name on the overview page.
+- **Detailed:**  Character Overview: Users can interact with each character on the overview page, opening a detailed version of the character profile. The detailed overview includes all - attributes presented on the overview page and additional attributes such as average lifespan, classification, language, starship name, starship model, and passengers.
